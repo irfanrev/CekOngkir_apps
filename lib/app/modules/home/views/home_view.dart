@@ -20,7 +20,7 @@ class HomeView extends GetView<HomeController> {
               mode: Mode.BOTTOM_SHEET,
               showSelectedItem: true,
               items: ["Brazil", "Italia (Disabled)", "Tunisia", 'Canada'],
-              label: "Menu mode",
+              label: "Provinsi Asal",
               hint: "country in menu mode",
               popupItemDisabled: (String s) => s.startsWith('I'),
               onChanged: print,
